@@ -104,5 +104,6 @@ public class SalesforceloginValidationSteps {
 
       driver.findElements(By.xpath("//input[@type='radio']")).size();
 
+      driver.findElement(By.id("123"));
    }
 }
